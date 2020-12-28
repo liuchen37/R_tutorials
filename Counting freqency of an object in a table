@@ -1,18 +1,18 @@
-## Example: Substitutions in HRas protein in human cancer, csv file from COSMIC v92.
-## Read table
+# Example: Substitutions in HRas protein in human cancer, csv file from COSMIC v92.
+# Read table
 View(HRas)
-## List objects wish to be counted
+# List objects wish to be counted
 HRas$'AA Mutation'
-## Convert into table with frequency
+# Convert into table with frequency
 table(HRas$'AA Mutation')
-## Define objects in table line 7
+# Define objects in table line 7
 H_object = table(HRas$'AA Mutation')
-## Display table line 9
+# Display table line 9
 H_object
-## Generate data frame, results should be generated at this step
+# Generate data frame, results should be generated at this step
 as.data.frame(H_object)
-## Change title of data frame
+# Change title of data frame
 HRas_Mutation = as.data.frame(H_object)
 names(H_object) = c("AASH", "Count")
-## Display new table line 16
+# Display new table line 16
 H_object
