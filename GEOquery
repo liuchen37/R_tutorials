@@ -1,0 +1,19 @@
+#Install Bioconductor
+if (!requireNamespace("BiocManager", quietly = TRUE))
+install.packages("BiocManager")
+BiocManager::install(version = "3.12")
+
+#Install GEOquery
+if (!requireNamespace("BiocManager", quietly = TRUE))
+install.packages("BiocManager")
+BiocManager::install("GEOquery")
+
+#Load and download a file, eg: GSE142063
+library(GEOquery)
+gset <- getGEO('GSE142063', destdir = ".")
+
+#Read data
+#Table cat: " ":--table. ","--csv, "!"!--:... [read.table cat]
+#In most cases, need extra annotation to prevent error "line xx did not have x elements". "!" need to be removed, by defining ! is a comment. Define header.
+a=read.table('file name', sep = '\t', quote = "", fill = T, comment.char = "!", header= T)
+
