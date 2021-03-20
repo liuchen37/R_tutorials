@@ -8,7 +8,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 install.packages("BiocManager")
 BiocManager::install("GEOquery")
 
-#Load and download a file, eg: GSE142063
+#Load and download a file, eg: GSE42872
 library(GEOquery)
 gset <- getGEO('GSE42872', destdir = ".")
 
