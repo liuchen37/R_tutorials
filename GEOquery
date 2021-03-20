@@ -10,7 +10,7 @@ BiocManager::install("GEOquery")
 
 #Load and download a file, eg: GSE142063
 library(GEOquery)
-gset <- getGEO('GSE142063', destdir = ".")
+gset <- getGEO('GSE42872', destdir = ".")
 
 #Read data
 #Table cat: " ":--table. ","--csv, "!"!--:... [read.table cat]
@@ -21,7 +21,9 @@ a=read.table('file name', sep = '\t', quote = "", fill = T, comment.char = "!", 
 class(a)
 str(a)
 
-#Convert first row to ID
+#Convert first row to ID, convertion package is platform-specific, e.g.: a(GSE42872/GPL6244) is pd.hugene.1.0.st.v1
 rownames(a)=a[,1] 
 #OR 
 rownames(a)=a[,-1]
+
+#Install package and run
