@@ -20,3 +20,8 @@ a=read.table('file name', sep = '\t', quote = "", fill = T, comment.char = "!", 
 #others
 class(a)
 str(a)
+
+#Convert first row to ID
+rownames(a)=a[,1] 
+#OR 
+rownames(a)=a[,-1]
