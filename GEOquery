@@ -21,10 +21,21 @@ a=read.table('file name', sep = '\t', quote = "", fill = T, comment.char = "!", 
 class(a)
 str(a)
 
-#Convert first row to ID, convertion package is platform-specific, e.g.: a(GSE42872/GPL6244) is hugene10sttranscriptcluster
+#Convert first row to gene symbol, convertion package is platform-specific, e.g.: a(GSE42872/GPL6244) is hugene10sttranscriptcluster
 rownames(a)=a[,1] 
 #OR 
 rownames(a)=a[,-1]
 
 #Install package and run
 BiocManager::install("hugene10sttranscriptcluster.db")
+library(hugene10sttranscriptcluster.db)
+
+#Convert ID using hugene10sttranscriptcluster to gene symbol (OR UNIPROT...: refer to ?hugene10sttranscriptcluster)
+ids=toTable(hugene10sttranscriptclusterSYMBOL)
+
+#Check length and numbers of probe-specific genes
+length(unique(ids$symbol))
+tail(sort(table(ids$symbol)))
+
+#Plot pobe count
+plot(table(sort(table(ids$symbol))))
