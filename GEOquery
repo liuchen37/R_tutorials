@@ -21,9 +21,8 @@ a=read.table('file name', sep = '\t', quote = "", fill = T, comment.char = "!", 
 class(a)
 str(a)
 
-#Convert first row to gene symbol, convertion package is platform-specific, e.g.: a(GSE42872/GPL6244) is hugene10sttranscriptcluster
+#Convert first row to gene symbol and delete frist row, convertion package is platform-specific, e.g.: a(GSE42872/GPL6244) is hugene10sttranscriptcluster
 rownames(a)=a[,1] 
-#OR 
 rownames(a)=a[,-1]
 
 #Install package and run
