@@ -17,3 +17,6 @@ gset <- getGEO('GSE142063', destdir = ".")
 #In most cases, need extra annotation to prevent error "line xx did not have x elements". "!" need to be removed, by defining ! is a comment. Define header.
 a=read.table('file name', sep = '\t', quote = "", fill = T, comment.char = "!", header= T)
 
+#others
+class(a)
+str(a)
