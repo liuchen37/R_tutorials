@@ -23,7 +23,7 @@ str(a)
 
 #Convert first row to gene symbol and delete frist row, convertion package is platform-specific, e.g.: a(GSE42872/GPL6244) is hugene10sttranscriptcluster
 rownames(a)=a[,1] 
-rownames(a)=a[,-1]
+a=a[,-1]
 
 #Install package and run
 BiocManager::install("hugene10sttranscriptcluster.db")
