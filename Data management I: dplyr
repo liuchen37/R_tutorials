@@ -1,4 +1,4 @@
-#demo data (crawley, 2012): https://github.com/shifteight/R-lang/blob/master/TRB/data/ipomopsis.txt
+#demo data (Crawley, 2012): https://github.com/shifteight/R-lang/blob/master/TRB/data/ipomopsis.txt
 
 rm(list = ls())
 library(dplyr)
