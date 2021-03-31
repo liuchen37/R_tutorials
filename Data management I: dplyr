@@ -1,1 +1,22 @@
+#demo data (crawley, 2012): https://github.com/shifteight/R-lang/blob/master/TRB/data/ipomopsis.txt
 
+rm(list = ls())
+library(dplyr)
+library(ggplot2)
+
+#Load file: compensation.csv
+file.read()
+read.csv(file = "file path")
+
+#A glance
+glimpse(compensation)
+as_tibble(compensation)
+summary(compensation)
+
+#dyplyr verbs
+#Select columns
+select(compensation, Root)
+#Select rows
+select_min(compensation, Root)
+select_max(compensation, Fruit)
+#
