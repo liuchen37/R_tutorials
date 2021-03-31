@@ -24,8 +24,17 @@ slice(compensation, 5:10)
 #Filter
 filter(compensation, Root < "5", Grazing == 'Ungrazed")
 filter(compensation, Grazing != "Ungrazed")
+#Use select and filter to see the statues of grazing when fruit>50
+select(filter(compensation, Fruit > 50), Grazing)
 #Arrange
 arrange(compensation, Root)
 #Mutate: use to modify data, eg: transform Root length from cm to inches
 mutate(compensation, Root = Root * 0.393701)
 
+#Establish mean value
+#Method 1: nested, no pipe
+#Find mean fruit production when grazed and ungrazed
+mean.fruit <- summarise(
+  group_by(compensation, Grazing),
+  Meanfruit = mean(Fruit))
+#Method 2: pipe, non nesting
