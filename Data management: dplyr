@@ -19,4 +19,13 @@ select(compensation, Root)
 #Select rows
 select_min(compensation, Root)
 select_max(compensation, Fruit)
-#
+#Slice grab specific rows, eg: bring row 5-10
+slice(compensation, 5:10)
+#Filter
+filter(compensation, Root < "5", Grazing == 'Ungrazed")
+filter(compensation, Grazing != "Ungrazed")
+#Arrange
+arrange(compensation, Root)
+#Mutate: use to modify data, eg: transform Root length from cm to inches
+mutate(compensation, Root = Root * 0.393701)
+
