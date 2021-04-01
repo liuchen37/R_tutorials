@@ -10,9 +10,33 @@ library(dplyr)
 ggplot(compensation, aes(x = Root, y = Fruit)) + 
   geom_point()
 
-#get rid of the gray background, using bw theme
+#get rid of the gray background, dot sized to 3, using bw theme
+#Refer to "/liuchen37/R_tutorials/Reference: Themes in ggplot2"
 ggplot(compensation, aes(x = Root, y = Fruit)) +
-  geom_point() +
+  geom_point(size = 3) +
+  theme_bw()
+
+#Add axis labels
+ggplot(compensation, aes(x = Root, y = Fruit)) +
+  geom_point(size = 3) +
+  xlab("Root Biomass") +
+  ylab("Fruit Production") +
+  theme_bw()
+
+#Similarly, use shape to discriminate grazing treatments
+ggplot(compensation, aes(x = Root, y = Fruit)) +
+  geom_point(size = 3) +
+  xlab("Root Biomass") +
+  tlab("Fruit Production") +
+  theme_bw()
+
+#Generate a box plot demostrating relationship between fruits production and grazing treatment, with presentation of indivudual result
+#alpha = transperency
+ggplot(compensation, aes(x = Grazing, y = Fruit)) +
+  geom_boxplot() +
+  geom_point(size = 2, color = 'lightgray', alpha = 0.7) +
+  ylab("Fruit Production") +
+  xlab("Grazing Treatment") +
   theme_bw()
 
 #
