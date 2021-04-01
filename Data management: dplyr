@@ -37,4 +37,4 @@ mutate(compensation, Root = Root * 0.393701)
 mean.fruit <- summarise(
   group_by(compensation, Grazing),
   Meanfruit = mean(Fruit))
-#Method 2: pipe, non nesting
+#Method 2: pipe, no nesting
