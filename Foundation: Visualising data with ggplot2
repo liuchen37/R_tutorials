@@ -39,4 +39,12 @@ ggplot(compensation, aes(x = Grazing, y = Fruit)) +
   xlab("Grazing Treatment") +
   theme_bw()
 
-#
+#Plot a histrogram overseas fruit production
+ggplot(compensation, aes(x = Fruit)) +
+  geom_histogram(bins = 10, binwidth = 15)
+
+#Present separated graphs for grazed and ungrazed, and save
+ggplot(compensation, aes(x = Fruit)) +
+  geom_histogram(bins = 10, binwidth = 15) +
+  facet_wrap(~Grazing)
+  ggsave("histo.png")
