@@ -5,7 +5,7 @@ library(dplyr)
 library(ggplot2)
 
 #Load file: compensation.csv
-file.read()
+file.choose()
 read.csv(file = "file path")
 
 #A glance
@@ -38,3 +38,18 @@ mean.fruit <- summarise(
   group_by(compensation, Grazing),
   Meanfruit = mean(Fruit))
 #Method 2: pipe, no nesting
+compensation %>%
+  group_by(Grazing) %>%
+    summarise(meanFruit = mean(Fruit))
+
+#Practice: Use data in the Weight-Height talbe to determine the mean heights and weights in different genders
+#https://gist.github.com/nstokoe/7d4717e96c21b8ad04ec91f361b000cb
+WH %>%
+  group_by(Gender) %>%
+  summarise(meanW = mean(Weight), meanH = mean(Height))
+## A tibble: 2 x 3
+##  Gender meanW meanH
+##  <chr>  <dbl> <dbl>
+##1 Female  136.  63.7
+##2 Male    187.  69.0
+
