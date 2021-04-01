@@ -48,3 +48,24 @@ ggplot(compensation, aes(x = Fruit)) +
   geom_histogram(bins = 10, binwidth = 15) +
   facet_wrap(~Grazing)
   ggsave("histo.png")
+
+#Practice using real-world data
+#How Chemotherapy affect BC patients survival
+#Data sourse: Nicolau, M. et al. (2011) PNAS, 108(17): 7256-70.
+file.choose()
+BC <- read.csv("/Users/chenliu/Documents/Learning/Datasets/BC.csv")
+summary(BC)
+Hormonal <- c(
+  'false' = "No HRT",
+  'true' = "HRT"
+)
+HRT_labeller <- function(variable, value){
+  return(Hormonal[value])
+}
+ggplot(BC, aes(x = chemo, y = survival)) +
+  geom_point() +
+  xlab("Chemotherapy") +
+  ylab("Survival (Mo)") +
+  geom_boxplot() +
+  facet_wrap(~hormonal, labeller = HRT_labeller) +
+  ggsave("BC.png")
