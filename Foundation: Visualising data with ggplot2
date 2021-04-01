@@ -1,0 +1,18 @@
+rm(list = ls())
+
+#ggplot2 foundation tutorial, Chen
+#demo data = compensation.csv, (Crawley, 2012) https://github.com/shifteight/R-lang/blob/master/TRB/data/ipomopsis.txt
+
+library(ggplot2)
+library(dplyr)
+
+#Make a simple bivarite, plain scatterplot of .compensation
+ggplot(compensation, aes(x = Root, y = Fruit)) + 
+  geom_point()
+
+#get rid of the gray background, using bw theme
+ggplot(compensation, aes(x = Root, y = Fruit)) +
+  geom_point() +
+  theme_bw()
+
+#
