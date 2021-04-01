@@ -53,7 +53,7 @@ ggplot(compensation, aes(x = Fruit)) +
 #How Chemotherapy affect BC patients survival
 #Data sourse: Nicolau, M. et al. (2011) PNAS, 108(17): 7256-70.
 file.choose()
-BC <- read.csv("/Users/chenliu/Documents/Learning/Datasets/BC.csv")
+BC <- read.csv("file path")
 summary(BC)
 Hormonal <- c(
   'false' = "No HRT",
