@@ -1,6 +1,4 @@
 #Statistics I: χ2 contingency analysis, simple t-test, linear regression and one-way ANOVA
-#demo data: ladybird morphology in rural and industrail areas, by Phil Warren
-#"liuchen37/R_tutorials/ladybirds_morph_colour.csv"
 
 rm(list = ls())
 
@@ -18,6 +16,8 @@ glimpse(ladybird)
 ## $ number       <int> 10, 3, 4, 7, 6, 15, 18, 9, 12, 16, 32, 25, 25, 17, 16, 17…
 
 #χ2 contingency analysis
+#demo data: ladybird morphology in rural and industrail areas, by Phil Warren
+#"liuchen37/R_tutorials/ladybirds_morph_colour.csv"
 #H0: no association between bird colours and their habitats
 
 #Summarise observations in each group of colour
@@ -60,3 +60,44 @@ chisq.test(lady.mat)
 
 #p<0.001, H0 rejected
 
+#Two-sample t-test
+#demo data: ozone levels in several gardens, inspired by Crawley (2012)
+#"liuchen37/R_tutorials/GardenOzone.csv"
+
+rm(list = ls())
+
+file.choose()
+ozone <- read.csv("file path")
+glimpse(ozone)
+ggplot(ozone, aes(x = Ozone)) +
+  geom_histogram(binwidth = 10) +
+  facet_wrap(~ Garden.location, ncol = 1) +
+  theme_bw()
+ggsave("5.2.png")
+
+#Calculate mean ozone in W/E gardens (/)
+ozone %>%
+  group_by(Garden.location) %>%
+  summarise(meanozone = mean(Ozone))
+  
+## # A tibble: 2 x 2
+##   Garden.location meanozone
+##   <chr>               <dbl>
+## 1 East                 77.3
+## 2 West                 61.3
+
+#t-test
+t.test(Ozone ~ Garden.location, data = ozone)
+
+## 	Welch Two Sample t-test
+## 
+## data:  Ozone by Garden.location
+## t = 4.2363, df = 17.656, p-value = 0.0005159
+## alternative hypothesis: true difference in means is not equal to 0
+## 95 percent confidence interval:
+##   8.094171 24.065829
+## sample estimates:
+## mean in group East mean in group West 
+##              77.34              61.26 
+
+#p<0.001
