@@ -1,2 +1,11 @@
 #Statistics I: χ2 contingency analysis, simple t-test, linear regression and one-way ANOVA
 #demo data: ladybird morphology in rural and industrail areas, by Phil Warren
+#"liuchen37/R_tutorials/ladybirds_morph_colour.csv"
+
+rm(list = ls())
+
+file.choose()
+ladybird <- read.csv("file path")
+library(dplyr)
+library(ggplot2)
+
