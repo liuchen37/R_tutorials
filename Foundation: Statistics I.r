@@ -101,3 +101,83 @@ t.test(Ozone ~ Garden.location, data = ozone)
 ##              77.34              61.26 
 
 #p<0.001
+
+#Linear models
+
+#Simple linear regression
+#demo data: plant growth rate
+#"/liuchen37/R_tutorials/plant.growth.rate.csv"
+
+file.choose()
+gr <- read.csv("/Users/chenliu/Documents/Learning/Datasets/plant.growth.rate.csv")
+glimpse(gr)
+
+## Rows: 50
+## Columns: 2
+## $ soil.moisture.content <dbl> 0.4696876, 0.5413106, 1.6979915, 0.8255799, 0.85…
+## $ plant.growth.rate     <dbl> 21.31695, 27.03072, 38.98937, 30.19529, 37.06547…
+
+#produce a scatter plot
+ggplot(gr, aes (x = soil.moisture.content, y = plant.growth.rate)) +
+  geom_point() +
+  xlab("soil moisture") +
+  ylab("plant growth rate (mm/week)") +
+  theme_bw()
+ggsave("5.3.png")
+
+#Construct a linear model (lm)
+linear <- lm(plant.growth.rate ~ soil.moisture.content, data = gr)
+
+#*ggfortify* is a extension for ggplot2
+if(!require(devtools)) install.packages("devtools")
+devtools::install_github("sinhrks/ggfortify")
+library(ggfortify)
+
+#Generate diagnostic plots
+autoplot(linear, smooth.colour = NA)
+#Upper-left: Fitness to a linear regression, if not fit, apparent will be hump-shapes or valleys
+#Upper-right: Dots = residues, dotted line = normal distribution (fitnes)
+#Lower-left: stantardised indicator of variation. In case of linear model, no pattern should be observed
+#Lower-right: tool to investigate higher influntial residues, not so useful...
+#No patterns observed with deata model = linear
+
+#Two types of summarisation
+anova(linear)
+
+## Analysis of Variance Table
+## 
+## Response: plant.growth.rate
+##                       Df  Sum Sq Mean Sq F value    Pr(>F)    
+## soil.moisture.content  1 2521.15 2521.15  156.08 < 2.2e-16 ***
+## Residuals             48  775.35   16.15                      
+## ---
+## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+summary(linear)
+
+## Call:
+## lm(formula = plant.growth.rate ~ soil.moisture.content, data = gr)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -8.9089 -3.0747  0.2261  2.6567  8.9406 
+## 
+## Coefficients:
+##                       Estimate Std. Error t value Pr(>|t|)    
+## (Intercept)             19.348      1.283   15.08   <2e-16 ***
+## soil.moisture.content   12.750      1.021   12.49   <2e-16 ***
+## ---
+## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+## 
+## Residual standard error: 4.019 on 48 degrees of freedom
+## Multiple R-squared:  0.7648,	Adjusted R-squared:  0.7599 
+## F-statistic: 156.1 on 1 and 48 DF,  p-value: < 2.2e-16
+
+#Generate best-fit line
+ggplot(gr, aes (x = soil.moisture.content, y = plant.growth.rate)) +
+  geom_point() +
+  geom_smooth(method = 'lm') +
+  xlab("Soil Moisture") +
+  ylab("Plant Growth Rate (mm/weak)") +
+  theme_bw() +
+  ggsave("5.4.png")
