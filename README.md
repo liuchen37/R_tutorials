@@ -25,4 +25,5 @@ Couvre des aspects fondamentaux, basé sur *Getting Started with R, 2ed (Peckerm
 | Data       | Plant.growth.rate                         | Imported |
 | Data       | Weight-height                             | Imported |
 
-**Keep updating...**
+**Keep updating, keep learning...**
+**Continuez à mettre à jour, continuez à apprendre...**
