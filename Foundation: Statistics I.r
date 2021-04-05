@@ -236,8 +236,8 @@ ggplot(dphn, aes(x = growth.rate, y = parasite, colour = parasite)) +
 #Mean
 mean <- dphn %>%
   group_by(parasite) %>%
-  summary(meanDR = mean(growth.rate))
-mean
+  summary(meanGR = mean(growth.rate))
+meanGR
 
 ##    parasite              rep        growth.rate    
 ##  Length:40          Min.   : 1.0   Min.   :0.1246  
