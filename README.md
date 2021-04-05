@@ -15,6 +15,7 @@ Couvre des aspects fondamentaux, basé sur *Getting Started with R: An Introduct
 | Foundation | Generalized linear models                 | Created  |
 | Foundation | Visualising data with ggplot2 II          | Created  |
 | Reference  | Themes in ggplot2                         | Imported |
+| Practice   | Inhibitory effect of DEA and 6-MP on T47D | Created  |
 | Practice   | Counting freqency of an object in a table | Created  |
 | Practice   | GEOquery                                  | Created  |
 | Data       | Compensation                              | Imported |
