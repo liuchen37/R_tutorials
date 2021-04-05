@@ -1,9 +1,9 @@
 # R_tutorials
 **Tutoriels d'R, Chen**
 
-Covers very fundamental aspects, based on *Getting Started with R: An Introduction for Biologists, 2ed (Peckerman and Childs, 2017).* 
+Covers very fundamental aspects, based on *Getting Started with R: An Introduction for Biologists, 2ed (Peckerman, 2017).* 
 
-Couvre des aspects fondamentaux, basé sur *Getting Started with R: An Introduction for Biologists, 2ed (Peckerman and Childs, 2017).*
+Couvre des aspects fondamentaux, basé sur *Getting Started with R: An Introduction for Biologists, 2ed (Peckerman, 2017).*
 
 ### Table of Contents
 | Chapter    | Title                                     | Origin   |
