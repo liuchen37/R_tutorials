@@ -26,4 +26,5 @@ Couvre des aspects fondamentaux, basé sur *Getting Started with R, 2ed (Peckerm
 | Data       | Weight-height                             | Imported |
 
 **Keep updating, keep learning...**
+
 **Continuez à mettre à jour, continuez à apprendre...**
