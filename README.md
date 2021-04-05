@@ -1,8 +1,7 @@
 # R_tutorials
 **Chen**
 
-Covers very fundamental aspects, based on *Getting Started with R, 2ed (Peckerman and Childs, 2017).*
-
+Covers very fundamental aspects, based on *Getting Started with R, 2ed (Peckerman and Childs, 2017).* 
 Couvre des aspects fondamentaux, basé sur *Getting Started with R, 2ed (Peckerman and Childs, 2017).*
 
 ### Table of Contents
