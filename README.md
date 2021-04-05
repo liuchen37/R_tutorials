@@ -1,5 +1,5 @@
 # R_tutorials
-**tutoriels d'R, Chen**
+**Tutoriels d'R, Chen**
 
 Covers very fundamental aspects, based on *Getting Started with R, 2ed (Peckerman and Childs, 2017).* 
 
