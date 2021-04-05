@@ -17,4 +17,5 @@ ggplot(DEA24, aes(x = Dosage, y = Absorbance, colour = Drug)) +
   xlab("Dosage (μg/ml)") +
   ylab("Abosrbance")+
   theme(text = element_text(family = "Times New Roman")) +
+  scale_x_continuous(limits = c(0,1000), breaks=seq(0,1000,200)) +
   ggsave("4a.png")
