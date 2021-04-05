@@ -12,7 +12,7 @@ Covers very foundamental aspects, based on *Getting Started with R 2ed (Peckerma
 | Foundation | Statistics II                             | Created  |
 | Foundation | Generalized linear models                 | Created  |
 | Foundation | Visualising data with ggplot2 II          | Created  |
-| Reference  | Themes in ggplot2                         | Created  |
+| Reference  | Themes in ggplot2                         | Imported |
 | Practice   | Counting freqency of an object in a table | Created  |
 | Practice   | GEOquery                                  | Created  |
 | Data       | Compensation                              | Imported |
