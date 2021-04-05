@@ -4,11 +4,12 @@
 rm(list = ls())
 library(ggplot2)
 library(dplyr)
-glimpse(DEA24)
 
 file.choose()
 DEA24 <- read.csv("file path")
 glimpse(DEA24)
+
+#Generate a plot with net-trends
 ggplot(DEA24, aes(x = Dosage, y = Absorbance, colour = Drug)) +
   geom_point(size = 2) +
   geom_line() +
