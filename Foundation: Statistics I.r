@@ -109,7 +109,7 @@ t.test(Ozone ~ Garden.location, data = ozone)
 #"/liuchen37/R_tutorials/plant.growth.rate.csv"
 
 file.choose()
-gr <- read.csv("/Users/chenliu/Documents/Learning/Datasets/plant.growth.rate.csv")
+gr <- read.csv("file path")
 glimpse(gr)
 
 ## Rows: 50
@@ -181,3 +181,50 @@ ggplot(gr, aes (x = soil.moisture.content, y = plant.growth.rate)) +
   ylab("Plant Growth Rate (mm/weak)") +
   theme_bw() +
   ggsave("5.4.png")
+
+#One-way ANOVA
+#Demo data: daphniagrowth.csv
+#
+file.choose()
+dphn <- read.csv("file path")
+glimpse(dphn)
+
+## Rows: 40
+## Columns: 3
+## $ parasite    <chr> "control", "control", "control", "control", "control", "contr…
+## $ rep         <int> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,…
+## $ growth.rate <dbl> 1.0747092, 1.2659016, 1.3151563, 1.0757519, 1.1967619, 1.3837…
+
+#plot a boxplot
+ggplot(dphn, aes(x = parasite, y = growth.rate)) +
+  geom_boxplot() +
+  theme_bw() +
+  ggsave("5.5.png")
+
+#Fix the long microbe name, by rotating the coordinates
+ggplot(dphn, aes(x = parasite, y = growth.rate)) +
+  geom_boxplot() +
+  theme_bw() +
+  xlab("Parasite") +
+  ylab("Growth rate") +
+  coord_flip () +
+  ggsave("5.6.png")
+
+#Construct a linear model for ANOVA
+dphnlinear <- lm(data = dphn, growth.rate ~ parasite)
+
+#Diagnostic plots
+autoplot(dphnlinear, smooth.colour = NA)
+
+#ANOVA
+anova(dphnlinear)
+
+## Analysis of Variance Table
+
+## Response: growth.rate
+##           Df Sum Sq Mean Sq F value    Pr(>F)    
+## parasite   3 3.1379 1.04597  32.325 2.571e-10 ***
+## Residuals 36 1.1649 0.03236                      
+## ---
+## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
