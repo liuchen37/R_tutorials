@@ -228,3 +228,21 @@ anova(dphnlinear)
 ## ---
 ## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
+#Make a summary  plot
+ggplot(dphn, aes(x = growth.rate, y = parasite, colour = parasite)) +
+  geom_point() +
+  theme_bw()
+
+#Mean
+mean <- dphn %>%
+  group_by(parasite) %>%
+  summary(meanDR = mean(growth.rate))
+mean
+
+##    parasite              rep        growth.rate    
+##  Length:40          Min.   : 1.0   Min.   :0.1246  
+##  Class :character   1st Qu.: 3.0   1st Qu.:0.6490  
+##  Mode  :character   Median : 5.5   Median :0.9502  
+##                     Mean   : 5.5   Mean   :0.8934  
+##                     3rd Qu.: 8.0   3rd Qu.:1.1250  
+##                     Max.   :10.0   Max.   :1.3838 
