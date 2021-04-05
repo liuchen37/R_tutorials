@@ -24,7 +24,7 @@ ggplot(compensation, aes(x = Root, y = Fruit)) +
   theme_bw()
 
 #Similarly, use shape to discriminate grazing treatments
-ggplot(compensation, aes(x = Root, y = Fruit)) +
+ggplot(compensation, aes(x = Root, y = Fruit, shape = Grazing)) +
   geom_point(size = 3) +
   xlab("Root Biomass") +
   tlab("Fruit Production") +
