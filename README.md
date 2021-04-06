@@ -1,9 +1,7 @@
 # R_tutorials
-**Tutoriels d'R, Chen**
+**Chen**
 
 Covers very fundamental aspects, based on *Getting Started with R: An Introduction for Biologists, 2ed (Peckerman, 2017).* 
-
-Couvre des aspects fondamentaux, basé sur *Getting Started with R: An Introduction for Biologists, 2ed (Peckerman, 2017).*
 
 ### Table of Contents
 | Chapter    | Title                                     | Origin   |
@@ -29,5 +27,3 @@ Couvre des aspects fondamentaux, basé sur *Getting Started with R: An Introduct
 All data are in .csv format.
 
 **Keep updating, keep learning...**
-
-**Continuez à mettre à jour, continuez à apprendre...**
