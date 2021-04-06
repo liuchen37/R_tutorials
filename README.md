@@ -23,6 +23,7 @@ Covers very fundamental aspects, based on *Getting Started with R: An Introducti
 | Data       | [Ladybirds_morph_colour](https://github.com/liuchen37/R_tutorials/blob/main/ladybirds_morph_colour.csv)           | Imported |
 | Data       | [Plant.growth.rate](https://github.com/liuchen37/R_tutorials/blob/main/plant.growth.rate.csv)                  | Imported |
 | Data       | [Weight-height](https://github.com/liuchen37/R_tutorials/blob/main/weight-height.csv)                             | Imported |
+| Data       | [Growth](https://github.com/liuchen37/R_tutorials/blob/main/growth.csv)               | Imported |
 
 All data are in .csv format.
 
