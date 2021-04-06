@@ -65,3 +65,8 @@ anova(linear)
 #ANCOVA
 #demo data: limpet.csv
 #"liuchen37/R_tutorials/limpet.csv"
+
+rm(list = ls())
+file.choose()
+limpet <- read.csv("/Users/chenliu/Documents/Learning/Datasets/limpet.csv", stringsAsFactors = T)
+glimpse(limpet)
