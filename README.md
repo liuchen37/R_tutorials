@@ -19,7 +19,7 @@ Couvre des aspects fondamentaux, basé sur *Getting Started with R: An Introduct
 | Practice   | Counting freqency of an object in a table | Created  |
 | Practice   | GEOquery                                  | Created  |
 | Data       | Compensation                              | Imported |
-| Data       | BC (Breast cancer)                        | Imported |
+| Data       | [BC] (https://github.com/liuchen37/R_tutorials/blob/main/BC.csv)                       | Imported |
 | Data       | Daphniagrowth                             | Imported |
 | Data       | GardenOzone                               | Imported |
 | Data       | Ladybirds_morph_colour                    | Imported |
