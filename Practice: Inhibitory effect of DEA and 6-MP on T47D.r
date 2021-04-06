@@ -13,7 +13,7 @@ glimpse(DEA24)
 ggplot(DEA24, aes(x = Dosage, y = Absorbance, colour = Drug)) +
   geom_point(size = 2) +
   geom_line() +
-  geom_smooth(method = 'lm', size = 0.5, level = 0.3, linetype = "dashed") +
+  geom_smooth(method = 'loess', size = 0.5, level = 0.95, linetype = "dashed") +
   xlab("Dosage (μg/ml)") +
   ylab("Abosrbance")+
   theme(text = element_text(family = "Times New Roman")) +
