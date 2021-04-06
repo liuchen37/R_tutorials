@@ -24,6 +24,7 @@ Covers very fundamental aspects, based on *Getting Started with R: An Introducti
 | Data       | [Plant.growth.rate](https://github.com/liuchen37/R_tutorials/blob/main/plant.growth.rate.csv)                  | Imported |
 | Data       | [Weight-height](https://github.com/liuchen37/R_tutorials/blob/main/weight-height.csv)                             | Imported |
 | Data       | [Cow Growth](https://github.com/liuchen37/R_tutorials/blob/main/growth.csv)               | Imported |
+| Data       | [Limpet](https://github.com/liuchen37/R_tutorials/blob/main/limpet.csv)    | Imported |
 
 All data are in .csv format.
 
