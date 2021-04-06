@@ -17,7 +17,7 @@ Covers very fundamental aspects, based on *Getting Started with R: An Introducti
 | Practice   | [Counting freqency of an object in a table](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Counting%20freqency%20of%20an%20object%20in%20a%20table.r) | Created  |
 | Practice   | [GEOquery](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20GEOquery.r)                                  | Created  |
 | Data       | [Compensation](https://github.com/liuchen37/R_tutorials/blob/main/compensation.csv)                              | Imported |
-| Data       | [BC](https://github.com/liuchen37/R_tutorials/blob/main/BC.csv)      | Imported |
+| Data       | [Breast Cancer](https://github.com/liuchen37/R_tutorials/blob/main/BC.csv)      | Imported |
 | Data       | [Daphniagrowth](https://github.com/liuchen37/R_tutorials/blob/main/Daphniagrowth.csv)            | Imported |
 | Data       | [GardenOzone](https://github.com/liuchen37/R_tutorials/blob/main/GardenOzone.csv)                               | Imported |
 | Data       | [Ladybirds_morph_colour](https://github.com/liuchen37/R_tutorials/blob/main/ladybirds_morph_colour.csv)           | Imported |
