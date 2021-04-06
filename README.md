@@ -25,7 +25,7 @@ Couvre des aspects fondamentaux, basé sur *Getting Started with R: An Introduct
 | Data       | Ladybirds_morph_colour                    | Imported |
 | Data       | Plant.growth.rate                         | Imported |
 | Data       | Weight-height                             | Imported |
-All data are in .csv format.
+| All data are in .csv format.                                      |
 
 **Keep updating, keep learning...**
 
