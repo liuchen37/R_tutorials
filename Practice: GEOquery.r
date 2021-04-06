@@ -1,8 +1,3 @@
-#Install Bioconductor
-if (!requireNamespace("BiocManager", quietly = TRUE))
-install.packages("BiocManager")
-BiocManager::install(version = "3.12")
-
 #Install GEOquery
 if (!requireNamespace("BiocManager", quietly = TRUE))
 install.packages("BiocManager")
