@@ -14,7 +14,7 @@ Covers very fundamental aspects, based on *Getting Started with R: An Introducti
 |  | Visualising data with ggplot2 II          | Created  |
 | Reference  | [Themes in ggplot2](https://github.com/liuchen37/R_tutorials/blob/main/Reference:%20Themes%20in%20ggplot2.r)        | Imported |
 | Practice   | [Inhibitory effect of DEA and 6-MP on T47D](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Inhibitory%20effect%20of%20DEA%20and%206-MP%20on%20T47D.r) | Created  |
-|    | [Counting freqency of an object in a table](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Counting%20freqency%20of%20an%20object%20in%20a%20table.r) | Created  |
+|    | [HRas mutation rate](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Counting%20freqency%20of%20an%20object%20in%20a%20table.r) | Created  |
 | Data       | [Compensation](https://github.com/liuchen37/R_tutorials/blob/main/compensation.csv)                    | Imported |
 |        | [Breast Cancer](https://github.com/liuchen37/R_tutorials/blob/main/BC.csv)      | Imported |
 |        | [Daphniagrowth](https://github.com/liuchen37/R_tutorials/blob/main/Daphniagrowth.csv)            | Imported |
@@ -30,13 +30,13 @@ Covers very fundamental aspects, based on *Getting Started with R: An Introducti
 | Chapter    | Title     | Origin   |
 | ---------- | ----------------------------------------- |:--------:| 
 | Quantitative RNASeq | Estimating differential expression with edgeR | Created |
-| Quantitative RNASeq | 
-| Quantitative RNASeq | 
-| Quantitative RNASeq | 
-| Quantitative RNASeq | 
-| Quantitative RNASeq | 
-| Quantitative RNASeq | 
-| Quantitative RNASeq | 
+| Quantitative RNASeq | Estimating differential expression with DESeq2 | Created |
+| Quantitative RNASeq | Power analysis with powersimR | Created |
+| Quantitative RNASeq | Spotting unannotated transcribed regions | Created |
+| Quantitative RNASeq | Spotting high expression region with bumphunter | Created |
+| Quantitative RNASeq | Differential peak analysis | Created |
+| Quantitative RNASeq | Estimating batch effects with SVA | Created |
+| Quantitative RNASeq | Spotting allele-specific expressions with Alleliclmbalance | Created |
 | Quantitative RNASeq | 
 | Genetic variants and HTS |
 | Genetic variants and HTS |
