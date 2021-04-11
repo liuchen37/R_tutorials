@@ -38,7 +38,7 @@ Covers very fundamental aspects, based on *Getting Started with R: An Introducti
 |  | Estimating batch effects with SVA | Created |
 |  | Allele-specific expressions with Alleliclmbalance | Created |
 |  | RNAseq data visulaization | Created |
-| Genetic variants and HTS | SNPs and indels from sequencing data with VariantTools | Created |
+| Genetic variants and HTS data | SNPs and indels from sequencing data with VariantTools | Created |
 |  | Predicting ORFs in long reference sequences | Created |
 |  | Plotting with karyploteR | Created |
 |  | Variants selection and classifying with VariantAnnotation | Created |
