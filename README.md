@@ -10,7 +10,7 @@ Covers very fundamental aspects, based on *Getting Started with R: An Introducti
 | Foundation | [Visualising data with ggplot2 I](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Visualising%20data%20with%20ggplot2%20I.r) | Created  |
 | Foundation | [Statistics I](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Statistics%20I.r)      | Created  |
 | Foundation | [Statistics II](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Statistics%20II.r)    | Created  |
-| Foundation | Generalized linear models                 | Created  |
+| Foundation | [Generalized linear models](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Generalized%20linear%20models)                 | Created  |
 | Foundation | Visualising data with ggplot2 II          | Created  |
 | Reference  | [Themes in ggplot2](https://github.com/liuchen37/R_tutorials/blob/main/Reference:%20Themes%20in%20ggplot2.r)        | Imported |
 | Practice   | [Inhibitory effect of DEA and 6-MP on T47D](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Inhibitory%20effect%20of%20DEA%20and%206-MP%20on%20T47D.r) | Created  |
