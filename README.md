@@ -45,7 +45,7 @@ Some code based on *Getting Started with R: An Introduction for Biologists, 2ed 
 |  | Genomic regions of interest | Created |
 |  | GWAS | Created |
 |  | Estomating the copy number at a locus of interest | Created |
-| Genes and proteins, domains and motifs | DNA motifs with universalmotif | Created |
+| Genes, proteins, domains and motifs | DNA motifs with universalmotif | Created |
 |  | Protein domains with PFAM and bio3d | Created |
 |  | InterPro domains | Created |
 |  | Multiple alignments of genes and proteins | Created |
