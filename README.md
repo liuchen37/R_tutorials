@@ -7,31 +7,31 @@ Although most code have been edited, the reference of the origin code were prese
 
 ### Table of Contents: Foundation
 Based on *Getting Started with R: An Introduction for Biologists, 2ed (Oxford, 2017)*
-| Chapter    | Title                                     | ?Imported |
-| ---------- | ----------------------------------------- |:--------:| 
+| Chapter    | Title                                     |
+| ---------- | ----------------------------------------- |
 | Foundation | [Data management with dplyr](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Data%20management%20with%20dplyr.r)     |
 |  | [Visualising data with ggplot2 I](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Visualising%20data%20with%20ggplot2%20I.r) |
 |  | [Statistics I](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Statistics%20I.r)      |
 |  | [Statistics II](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Statistics%20II.r)    |
 |  | [Generalized linear models](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Generalized%20linear%20models)     |
 |  | Visualising data with ggplot2 II          |
-| Reference  | [Themes in ggplot2](https://github.com/liuchen37/R_tutorials/blob/main/Reference:%20Themes%20in%20ggplot2.r)        | Imported |
+| Reference  | [Themes in ggplot2](https://github.com/liuchen37/R_tutorials/blob/main/Reference:%20Themes%20in%20ggplot2.r)        |
 | Practice   | [Inhibitory effect of DEA and 6-MP on T47D](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Inhibitory%20effect%20of%20DEA%20and%206-MP%20on%20T47D.r) |
 |    | [HRas mutation rate](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Counting%20freqency%20of%20an%20object%20in%20a%20table.r) |
-| Data       | [Compensation](https://github.com/liuchen37/R_tutorials/blob/main/compensation.csv)                    | Imported |
-|        | [Breast Cancer](https://github.com/liuchen37/R_tutorials/blob/main/BC.csv)      | Imported |
-|        | [Daphniagrowth](https://github.com/liuchen37/R_tutorials/blob/main/Daphniagrowth.csv)            | Imported |
-|        | [GardenOzone](https://github.com/liuchen37/R_tutorials/blob/main/GardenOzone.csv)                    | Imported |
-|        | [Ladybirds_morph_colour](https://github.com/liuchen37/R_tutorials/blob/main/ladybirds_morph_colour.csv)           | Imported |
-|        | [Plant.growth.rate](https://github.com/liuchen37/R_tutorials/blob/main/plant.growth.rate.csv)         | Imported |
-|        | [Weight-height](https://github.com/liuchen37/R_tutorials/blob/main/weight-height.csv)                   | Imported |
-|        | [Cow Growth](https://github.com/liuchen37/R_tutorials/blob/main/growth.csv)          | Imported |
-|        | [Limpet](https://github.com/liuchen37/R_tutorials/blob/main/limpet.csv)    | Imported |
+| Data       | [Compensation](https://github.com/liuchen37/R_tutorials/blob/main/compensation.csv)                    |
+|        | [Breast Cancer](https://github.com/liuchen37/R_tutorials/blob/main/BC.csv)      |
+|        | [Daphniagrowth](https://github.com/liuchen37/R_tutorials/blob/main/Daphniagrowth.csv)            |
+|        | [GardenOzone](https://github.com/liuchen37/R_tutorials/blob/main/GardenOzone.csv)                    |
+|        | [Ladybirds_morph_colour](https://github.com/liuchen37/R_tutorials/blob/main/ladybirds_morph_colour.csv)           |
+|        | [Plant.growth.rate](https://github.com/liuchen37/R_tutorials/blob/main/plant.growth.rate.csv)         |
+|        | [Weight-height](https://github.com/liuchen37/R_tutorials/blob/main/weight-height.csv)                   |
+|        | [Cow Growth](https://github.com/liuchen37/R_tutorials/blob/main/growth.csv)          |
+|        | [Limpet](https://github.com/liuchen37/R_tutorials/blob/main/limpet.csv)    |
 
 ### Table of Contents: Bioinformatics
 Based on *R Bioinformatics Cookbook (Packt, 2019)*
-| Chapter    | Title     | ?Imported   |
-| ---------- | ----------------------------------------- |:--------:| 
+| Chapter    | Title     |
+| ---------- | ----------------------------------------- |
 | Quantitative RNAseq | Estimating differential expression with edgeR |
 |  | Estimating differential expression with DESeq2 |
 |  | Power analysis with powersimR |
