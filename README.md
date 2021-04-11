@@ -29,7 +29,7 @@ Covers very fundamental aspects, based on *Getting Started with R: An Introducti
 ### Table of Contents: Bioinformatics
 | Chapter    | Title     | Origin   |
 | ---------- | ----------------------------------------- |:--------:| 
-|  | Estimating differential expression with edgeR | Created |
+| Quantitative RNAseq | Estimating differential expression with edgeR | Created |
 |  | Estimating differential expression with DESeq2 | Created |
 |  | Power analysis with powersimR | Created |
 |  | Unannotated transcribed regions | Created |
