@@ -30,37 +30,37 @@ Based on *Getting Started with R: An Introduction for Biologists, 2ed (Oxford, 2
 
 ### Table of Contents: Bioinformatics
 Based on *R Bioinformatics Cookbook (Packt, 2019)*
-| Chapter    | Title     | Origin   |
+| Chapter    | Title     | ?Imported   |
 | ---------- | ----------------------------------------- |:--------:| 
-| Quantitative RNAseq | Estimating differential expression with edgeR |  |
-|  | Estimating differential expression with DESeq2 |  |
-|  | Power analysis with powersimR |  |
-|  | Unannotated transcribed regions |  |
-|  | High expression region with bumphunter |  |
-|  | Differential peak analysis |  |
-|  | Estimating batch effects with SVA |  |
-|  | Allele-specific expression analysis with Alleliclmbalance |  |
+| Quantitative RNAseq | Estimating differential expression with edgeR |
+|  | Estimating differential expression with DESeq2 |
+|  | Power analysis with powersimR |
+|  | Unannotated transcribed regions |
+|  | High expression region with bumphunter |
+|  | Differential peak analysis |
+|  | Estimating batch effects with SVA |
+|  | Allele-specific expression analysis with Alleliclmbalance |
 |  | RNAseq data visulaization |  |
-| Genetic variants and HTS data | SNPs and indels from sequencing data with VariantTools |  |
-|  | Predicting ORFs in long reference sequences |  |
-|  | Plotting with karyploteR |  |
-|  | Variants selection and classifying with VariantAnnotation |  |
-|  | Genomic regions of interest |  |
-|  | GWAS |  |
-|  | Estomating the copy number at a locus of interest |  |
-| Genes, proteins, domains and motifs | DNA motifs with universalmotif |  |
-|  | Protein domains with PFAM and bio3d |  |
-|  | InterPro domains |  |
-|  | Multiple alignments of genes and proteins |  |
-|  | Aligning genomic length sequences with DECIPHER |  |
-|  | Machine learning for protein noval feature predicton |  |
-|  | 3D structure protein alighm,ent with bio3d |  |
-| Phylogenetics | Reading and writing varied tree formats with ape and treeio |  |
-|  | Tree visualization with ggtree |  |
-|  | Quantifying differences with treespace |  |
-|  | Subtrees |  |
-|  | Alighnment visualization |  |
-|  | Reconstructing trees using phangorn |  |
+| Genetic variants and HTS data | SNPs and indels from sequencing data with VariantTools |
+|  | Predicting ORFs in long reference sequences |
+|  | Plotting with karyploteR |
+|  | Variants selection and classifying with VariantAnnotation |
+|  | Genomic regions of interest |
+|  | GWAS |
+|  | Estomating the copy number at a locus of interest |
+| Genes, proteins, domains and motifs | DNA motifs with universalmotif |
+|  | Protein domains with PFAM and bio3d |
+|  | InterPro domains |
+|  | Multiple alignments of genes and proteins |
+|  | Aligning genomic length sequences with DECIPHER |
+|  | Machine learning for protein noval feature predicton |
+|  | 3D structure protein alighm,ent with bio3d |
+| Phylogenetics | Reading and writing varied tree formats with ape and treeio |
+|  | Tree visualization with ggtree |
+|  | Quantifying differences with treespace |
+|  | Subtrees |
+|  | Alighnment visualization |
+|  | Reconstructing trees using phangorn |
 | Metagenomics |
 | Metagenomics |
 | Metagenomics |
