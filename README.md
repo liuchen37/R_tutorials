@@ -26,10 +26,10 @@ Covers very fundamental aspects, based on *Getting Started with R: An Introducti
 |        | [Limpet](https://github.com/liuchen37/R_tutorials/blob/main/limpet.csv)    | Imported |
 
 
-### Table of Contents: bioinformatics
+### Table of Contents: Bioinformatics
 | Chapter    | Title     | Origin   |
 | ---------- | ----------------------------------------- |:--------:| 
-| Quantitative RNASeq | 
+| Quantitative RNASeq | Estimating differential expression with edgeR | Created |
 | Quantitative RNASeq | 
 | Quantitative RNASeq | 
 | Quantitative RNASeq | 
