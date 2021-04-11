@@ -1,11 +1,10 @@
 # R_tutorials
 **Chen**
 
-Some R tutorials: foundation and bioinformatics. 
-Although most code have been edited, the reference of the origin code were presented before the tables of contents, only for education purpose.
+Some R tutorials: foundation and bioinformatics. Although most code have been edited, the reference of the origin code were presented before the tables of contents, only for education purpose.
 
-Based on *Getting Started with R: An Introduction for Biologists, 2ed (Oxford, 2017)*
 ### Table of Contents: Foundation
+Based on *Getting Started with R: An Introduction for Biologists, 2ed (Oxford, 2017)*
 | Chapter    | Title                                     | Imported?   |
 | ---------- | ----------------------------------------- |:--------:| 
 | Foundation | [Data management with dplyr](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Data%20management%20with%20dplyr.r)     |   |
@@ -27,8 +26,8 @@ Based on *Getting Started with R: An Introduction for Biologists, 2ed (Oxford, 2
 |        | [Cow Growth](https://github.com/liuchen37/R_tutorials/blob/main/growth.csv)          | Imported |
 |        | [Limpet](https://github.com/liuchen37/R_tutorials/blob/main/limpet.csv)    | Imported |
 
-Based on *R Bioinformatics Cookbook (Packt, 2019)*
 ### Table of Contents: Bioinformatics
+Based on *R Bioinformatics Cookbook (Packt, 2019)*
 | Chapter    | Title     | Origin   |
 | ---------- | ----------------------------------------- |:--------:| 
 | Quantitative RNAseq | Estimating differential expression with edgeR |  |
