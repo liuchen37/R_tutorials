@@ -12,8 +12,6 @@ Covers very fundamental aspects, based on *Getting Started with R: An Introducti
 | Foundation | [Statistics II](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Statistics%20II.r)    | Created  |
 | Foundation | [Generalized linear models](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Generalized%20linear%20models)     | Created  |
 | Foundation | Visualising data with ggplot2 II          | Created  |
-
-| Foundation | 
 | Reference  | [Themes in ggplot2](https://github.com/liuchen37/R_tutorials/blob/main/Reference:%20Themes%20in%20ggplot2.r)        | Imported |
 | Practice   | [Inhibitory effect of DEA and 6-MP on T47D](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Inhibitory%20effect%20of%20DEA%20and%206-MP%20on%20T47D.r) | Created  |
 | Practice   | [Counting freqency of an object in a table](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Counting%20freqency%20of%20an%20object%20in%20a%20table.r) | Created  |
