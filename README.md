@@ -74,12 +74,12 @@ Based on *R Bioinformatics Cookbook (Packt, 2019)*
 | Proteomics |
 | Proteomics |
 | Proteomics |
-| Visualization for publication and web |
-| Visualization for publication and web |
-| Visualization for publication and web |
-| Visualization for publication and web |
-| Visualization for publication and web |
-| Visualization for publication and web |
+| Visualization for publication |
+|  |
+|  |
+|  |
+|  |
+|  |
 | Databases and remote data sources |
 | Databases and remote data sources |
 | Databases and remote data sources |
