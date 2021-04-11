@@ -1,7 +1,7 @@
 # R_tutorials
 **Chen**
 
-Covers very fundamental aspects, based on *Getting Started with R: An Introduction for Biologists, 2ed (Peckerman, 2017)* and *R Bioinformatics Cookbook (Dan, 2019)*
+Some code based on *Getting Started with R: An Introduction for Biologists, 2ed (Oxford, 2017)* and *R Bioinformatics Cookbook (Packt, 2019)*
 
 ### Table of Contents: Foundation
 | Chapter    | Title                                     | Origin   |
@@ -36,7 +36,7 @@ Covers very fundamental aspects, based on *Getting Started with R: An Introducti
 |  | High expression region with bumphunter | Created |
 |  | Differential peak analysis | Created |
 |  | Estimating batch effects with SVA | Created |
-|  | Allele-specific expressions with Alleliclmbalance | Created |
+|  | Allele-specific expression analysis with Alleliclmbalance | Created |
 |  | RNAseq data visulaization | Created |
 | Genetic variants and HTS data | SNPs and indels from sequencing data with VariantTools | Created |
 |  | Predicting ORFs in long reference sequences | Created |
@@ -45,13 +45,13 @@ Covers very fundamental aspects, based on *Getting Started with R: An Introducti
 |  | Genomic regions of interest | Created |
 |  | GWAS | Created |
 |  | Estomating the copy number at a locus of interest | Created |
-| Domains and motifs in Omics | 
-| Domains and motifs in Omics |
-| Domains and motifs in Omics |
-| Domains and motifs in Omics |
-| Domains and motifs in Omics |
-| Domains and motifs in Omics |
-| Domains and motifs in Omics |
+| Genes and proteins, domains and motifs | DNA motifs with universalmotif | Created |
+|  | Protein domains with PFAM and bio3d | Created |
+|  | InterPro domains | Created |
+|  | Multiple alignments of genes and proteins | Created |
+|  | Aligning genomic length sequences with DECIPHER | Created |
+|  | Machine learning for protein noval feature predicton | Created |
+|  | 3D structure protein alighm,ent with bio3d | Created |
 | Phylogenetics |
 | Phylogenetics |
 | Phylogenetics |
