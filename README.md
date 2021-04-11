@@ -29,23 +29,23 @@ Covers very fundamental aspects, based on *Getting Started with R: An Introducti
 ### Table of Contents: Bioinformatics
 | Chapter    | Title     | Origin   |
 | ---------- | ----------------------------------------- |:--------:| 
-| Quantitative RNASeq | Estimating differential expression with edgeR | Created |
-| Quantitative RNASeq | Estimating differential expression with DESeq2 | Created |
-| Quantitative RNASeq | Power analysis with powersimR | Created |
-| Quantitative RNASeq | Spotting unannotated transcribed regions | Created |
-| Quantitative RNASeq | Spotting high expression region with bumphunter | Created |
-| Quantitative RNASeq | Differential peak analysis | Created |
-| Quantitative RNASeq | Estimating batch effects with SVA | Created |
-| Quantitative RNASeq | Spotting allele-specific expressions with Alleliclmbalance | Created |
-| Quantitative RNASeq | 
-| Genetic variants and HTS |
-| Genetic variants and HTS |
-| Genetic variants and HTS |
-| Genetic variants and HTS |
-| Genetic variants and HTS |
-| Genetic variants and HTS |
-| Genetic variants and HTS |
-| Domains and motifs in Omics |
+|  | Estimating differential expression with edgeR | Created |
+|  | Estimating differential expression with DESeq2 | Created |
+|  | Power analysis with powersimR | Created |
+|  | Unannotated transcribed regions | Created |
+|  | High expression region with bumphunter | Created |
+|  | Differential peak analysis | Created |
+|  | Estimating batch effects with SVA | Created |
+|  | Allele-specific expressions with Alleliclmbalance | Created |
+|  | RNAseq data visulaization | Created |
+| Genetic variants and HTS | SNPs and indels from sequencing data with VariantTools | Created |
+|  | Predicting ORFs in long reference sequences | Created |
+|  | Plotting with karyploteR | Created |
+|  | Variants selection and classifying with VariantAnnotation | Created |
+|  | Genomic regions of interest | Created |
+|  | GWAS | Created |
+|  | Estomating the copy number at a locus of interest | Created |
+| Domains and motifs in Omics | 
 | Domains and motifs in Omics |
 | Domains and motifs in Omics |
 | Domains and motifs in Omics |
