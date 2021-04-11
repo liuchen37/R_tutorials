@@ -1,7 +1,7 @@
 # R_tutorials
 **Chen**
 
-Covers very fundamental aspects, based on *Getting Started with R: An Introduction for Biologists, 2ed (Peckerman, 2017).* 
+Covers very fundamental aspects, based on *Getting Started with R: An Introduction for Biologists, 2ed (Peckerman, 2017).* and *R Bioinformatics Cookbook (Dan, 2019)
 
 ### Table of Contents: Foundation
 | Chapter    | Title                                     | Origin   |
