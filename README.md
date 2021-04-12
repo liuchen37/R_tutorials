@@ -61,53 +61,53 @@ Based on *R Bioinformatics Cookbook (Packt, 2019)*
 |  | Subtrees |
 |  | Alighnment visualization |
 |  | Reconstructing trees using phangorn |
-| Metagenomics |
-| Metagenomics |
-| Metagenomics |
-| Metagenomics |
-| Metagenomics |
-| Metagenomics |
-| Proteomics |
-| Proteomics |
-| Proteomics |
-| Proteomics |
-| Proteomics |
-| Proteomics |
-| Proteomics |
-| Visualization for publication |
+| Metagenomics | Processing hierarchical taxonomic data with phyloseq |
+|  | Sample differential with matacoder |
+|  |Reading amplicon data with data2 |
+|  |Taxonomic abundances visualization |
+|  |Sample diversity with vegan |
+|  |Splitting sequence files into OTUs |
+| Proteomics | Visualization raw MS data |
+|  | Genome broswer |
+|  | Distribution visualizing |
+|  | MS formats convertion |
+|  | Matching spectra to peptides |
+|  | Quality control files |
+|  |Identifying genomic loci with peptides |
+| Visualization for publication | Mutiple distributions |
+|  | Colormpas for two-variable data |
+|  | Relational data as networks |
+|  | Interactive web |
+|  | Three-dimensional plots |
+|  | Circular genome plots |
+| Databases and remote data sources |
 |  |
 |  |
 |  |
 |  |
 |  |
-| Databases and remote data sources |
-| Databases and remote data sources |
-| Databases and remote data sources |
-| Databases and remote data sources |
-| Databases and remote data sources |
-| Databases and remote data sources |
-| Databases and remote data sources |
+|  |
 | Statistics and machine learning |
-| Statistics and machine learning |
-| Statistics and machine learning |
-| Statistics and machine learning |
-| Statistics and machine learning |
-| Statistics and machine learning |
-| Statistics and machine learning |
-| Statistics and machine learning |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
 | Tidyverse and BioConductor |
-| Tidyverse and BioConductor |
-| Tidyverse and BioConductor |
-| Tidyverse and BioConductor |
-| Tidyverse and BioConductor |
-| Tidyverse and BioConductor |
+|  |
+|  |
+|  |
+|  |
+|  |
 | Building and packaging |
-| Building and packaging |
-| Building and packaging |
-| Building and packaging |
-| Building and packaging |
-| Building and packaging |
-| Building and packaging |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
 | Practice   | [GEOquery](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20GEOquery.r) |
 
 
