@@ -29,3 +29,25 @@ autoplot(sheepglm, smooth.colour = NA)
 anova(sheepglm, test = "Chisq")
 summary(sheepglm)
 
+#Visualization
+
+#Expand data
+minsize <- min(sheepcount$body.size)
+maxsize <- max(sheepcount$body.size)
+newx <- expand.grid(body.size = seq(minsize, maxsize, length = 1000))
+
+newy = predict(sheepglm, newdata = newx, se.fit = TRUE)
+newdata <- data.frame(newx, newy)
+head(newdata)
+
+newdata <- mutate(newdata,
+                  fitness = exp(fit),
+                  lwr = fitness - 1.96 * se.fit,
+                  upr = fitness + 1.96 * se.fit)
+head(newdata)
+
+ggplot(sheepcount, aes(x = body.size, y = fitness)) +
+  geom_point(size = 3, alpha = 0.5) +
+  geom_smooth(data = newdata, aes(ymin = lwr, ymax = upr), stat = 'identity') +
+  theme_bw() +
+  ggsave("7.1.png")
