@@ -97,7 +97,7 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 | Tidyverse and BioConductor | Tidying |
 |  | Nested dataframes |
 |  | dplyer::mutate() |
-|  | Bioconductor classes |
+|  | BioConductor classes |
 |  | Developing reusable workflows and reports |
 |  | Family of functions |
 | Building and packaging | Simple S3 objects |
