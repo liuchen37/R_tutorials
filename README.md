@@ -14,7 +14,7 @@ Reference: *Getting Started with R: An Introduction for Biologists, 2ed (Oxford,
 |  | [Statistics I](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Statistics%20I.r)      |
 |  | [Statistics II](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Statistics%20II.r)    |
 |  | [Generalized linear models](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Generalized%20linear%20models.r) |
-|  | Visualising data with ggplot2 II(https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Visualising%20data%20with%20ggplot2%20II.r) |
+|  | [Visualising data with ggplot2 II](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Visualising%20data%20with%20ggplot2%20II.r) |
 | Reference  | [Themes in ggplot2](https://github.com/liuchen37/R_tutorials/blob/main/Reference:%20Themes%20in%20ggplot2.r)     |
 | Practice   | [Inhibitory effect of DEA and 6-MP on T47D](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Inhibitory%20effect%20of%20DEA%20and%206-MP%20on%20T47D.r) |
 |    | [HRas mutation rate](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Counting%20freqency%20of%20an%20object%20in%20a%20table.r) |
