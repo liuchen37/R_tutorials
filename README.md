@@ -6,7 +6,7 @@ Some R tutorials: foundation and bioinformatics.
 Although most code have been edited, the reference of the origin code were presented before the tables of contents, only for education purpose. Please purchase the books for detailed explaination. All data are in .csv format.
 
 ### Table of Contents: Foundation
-Based on *Getting Started with R: An Introduction for Biologists, 2ed (Oxford, 2017)*
+Reference: *Getting Started with R: An Introduction for Biologists, 2ed (Oxford, 2017)*
 | Chapter    | Title                                     |
 | ---------- | ----------------------------------------- |
 | Foundation | [Data management with dplyr](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Data%20management%20with%20dplyr.r)     |
@@ -29,7 +29,7 @@ Based on *Getting Started with R: An Introduction for Biologists, 2ed (Oxford, 2
 |        | [Limpet](https://github.com/liuchen37/R_tutorials/blob/main/limpet.csv)    |
 
 ### Table of Contents: Bioinformatics
-Based on *R Bioinformatics Cookbook (Packt, 2019)*
+Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 | Chapter    | Title     |
 | ---------- | ----------------------------------------- |
 | Quantitative RNAseq | Estimating differential expression |
