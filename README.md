@@ -33,7 +33,6 @@ Based on *R Bioinformatics Cookbook (Packt, 2019)*
 | Chapter    | Title     |
 | ---------- | ----------------------------------------- |
 | Quantitative RNAseq | Estimating differential expression |
-|  | Estimating differential expression |
 |  | Power analysis |
 |  | Unannotated transcribed regions |
 |  | High expression region with bumphunter |
