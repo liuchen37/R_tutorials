@@ -69,7 +69,7 @@ anova(linear)
 
 rm(list = ls())
 file.choose()
-limpet <- read.csv("/Users/chenliu/Documents/Learning/Datasets/limpet.csv", stringsAsFactors = T)
+limpet <- read.csv("file path", stringsAsFactors = T)
 glimpse(limpet)
 
 #Produce a point scatter
