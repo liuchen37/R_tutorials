@@ -71,7 +71,7 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | Distribution visualizing |
 |  | MS formats convertion |
 |  | Matching spectra to peptides |
-|  | Quality control files |
+|  | QC files |
 |  |Identifying genomic loci with peptides |
 | Visualization for publication | Mutiple distributions |
 |  | Colormpas for two-variable data |
@@ -79,34 +79,34 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | Interactive web |
 |  | Three-dimensional plots |
 |  | Circular genome plots |
-| Databases and remote data sources |
-|  |
-|  |
-|  |
-|  |
-|  |
-|  |
-| Statistics and machine learning |
-|  |
-|  |
-|  |
-|  |
-|  |
-|  |
-|  |
-| Tidyverse and BioConductor |
-|  |
-|  |
-|  |
-|  |
-|  |
-| Building and packaging |
-|  |
-|  |
-|  |
-|  |
-|  |
-|  |
+| Databases and remote data sources | Retrieving gene and genoe annotation |
+|  | SNPs |
+|  | Gene ontology |
+|  | SRA/ENA |
+|  | Performing QC and filtering on high-throughput sequence reads |
+|  | Completing read-to-reference alignments |
+|  | Visualizing QC of read-to-reference alignments |
+| Statistics and machine learning | Correcting p-values for multiple hypotheses |
+|  | Simulated dataset and classifying |
+|  | Learning groups I |
+|  | Predicting classes I: random forests |
+|  | Predicting classes II: SVM |
+|  | Learning groups II |
+|  | Identifying important variables in data I |
+|  | Identifying important variables in data II |
+| Tidyverse and BioConductor | Tidying |
+|  | Nested dataframes |
+|  | dplyer::mutate() |
+|  | Bioconductor classes |
+|  | Developing reusable workflows and reports |
+|  | Family of functions |
+| Building and packaging | Simple S3 objects |
+|  | S3 classes |
+|  | S4 systems |
+|  | Packaging for sharing and reuse |
+|  | GitHub |
+|  | Building a unit test suite |
+|  | Continous integration |
 | Practice   | [GEOquery](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20GEOquery.r) |
 
 
