@@ -32,40 +32,40 @@ Based on *Getting Started with R: An Introduction for Biologists, 2ed (Oxford, 2
 Based on *R Bioinformatics Cookbook (Packt, 2019)*
 | Chapter    | Title     |
 | ---------- | ----------------------------------------- |
-| Quantitative RNAseq | Estimating differential expression with edgeR |
-|  | Estimating differential expression with DESeq2 |
-|  | Power analysis with powersimR |
+| Quantitative RNAseq | Estimating differential expression |
+|  | Estimating differential expression |
+|  | Power analysis |
 |  | Unannotated transcribed regions |
 |  | High expression region with bumphunter |
 |  | Differential peak analysis |
-|  | Estimating batch effects with SVA |
-|  | Allele-specific expression analysis with Alleliclmbalance |
+|  | Estimating batch effects |
+|  | Allele-specific expression analysis |
 |  | RNAseq data visulaization |  |
-| Genetic variants and HTS data | SNPs and indels from sequencing data with VariantTools |
+| Genetic variants and HTS data | SNPs and indels from sequencing data |
 |  | Predicting ORFs in long reference sequences |
 |  | Plotting with karyploteR |
-|  | Variants selection and classifying with VariantAnnotation |
+|  | Variants selection and classifying |
 |  | Genomic regions of interest |
 |  | GWAS |
 |  | Estomating the copy number at a locus of interest |
-| Genes, proteins, domains and motifs | DNA motifs with universalmotif |
+| Genes, proteins, domains and motifs | DNA motif |
 |  | Protein domains with PFAM and bio3d |
 |  | InterPro domains |
 |  | Multiple alignments of genes and proteins |
-|  | Aligning genomic length sequences with DECIPHER |
+|  | Aligning genomic length sequences |
 |  | Machine learning for protein noval feature predicton |
-|  | 3D structure protein alighm,ent with bio3d |
-| Phylogenetics | Reading and writing varied tree formats with ape and treeio |
-|  | Tree visualization with ggtree |
-|  | Quantifying differences with treespace |
+|  | 3D structure protein alignment |
+| Phylogenetics | Reading and writing varied tree formats |
+|  | Tree visualization |
+|  | Quantifying differences |
 |  | Subtrees |
 |  | Alighnment visualization |
 |  | Reconstructing trees using phangorn |
-| Metagenomics | Processing hierarchical taxonomic data with phyloseq |
-|  | Sample differential with matacoder |
-|  |Reading amplicon data with data2 |
+| Metagenomics | Processing hierarchical taxonomic data |
+|  | Sample differential |
+|  |Reading amplicon data |
 |  |Taxonomic abundances visualization |
-|  |Sample diversity with vegan |
+|  |Sample diversity |
 |  |Splitting sequence files into OTUs |
 | Proteomics | Visualization raw MS data |
 |  | Genome broswer |
