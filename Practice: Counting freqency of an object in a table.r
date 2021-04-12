@@ -7,7 +7,6 @@ HRas$'AA Mutation'
 table(HRas$'AA Mutation')
 # Define objects in table line 7
 H_object = table(HRas$'AA Mutation')
-# Display table line 9
 H_object
 # Generate data frame, results should be generated at this step
 as.data.frame(H_object)
