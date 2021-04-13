@@ -12,6 +12,7 @@ compensation <- read.csv("file path)
 compensation
 
 #Assign plots
+
 egscatter <-
   ggplot(compensation, aes(x = Root, y = Fruit)) +
   geom_point()
@@ -21,6 +22,7 @@ egbox <-
   geom_boxplot()
 
 #Add lines to existing assignment
+
 egscatter + theme_bw()
 
 #Arrangements
