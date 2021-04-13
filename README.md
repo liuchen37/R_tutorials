@@ -9,16 +9,16 @@ Although most code have been edited, the reference of the origin code were prese
 Reference: *Getting Started with R: An Introduction for Biologists, 2ed (Oxford, 2017)*
 | Chapter    | Title                                     |
 | ---------- | ----------------------------------------- |
-| Foundation | [Data management with dplyr](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Data%20management%20with%20dplyr.r)     |
+| **Foundation** | [Data management with dplyr](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Data%20management%20with%20dplyr.r)     |
 |  | [Visualising data with ggplot2 I](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Visualising%20data%20with%20ggplot2%20I.r) |
 |  | [Statistics I](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Statistics%20I.r)      |
 |  | [Statistics II](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Statistics%20II.r)    |
 |  | [Generalized linear models](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Generalized%20linear%20models.r) |
 |  | [Visualising data with ggplot2 II](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Visualising%20data%20with%20ggplot2%20II.r) |
-| Reference  | [Themes in ggplot2](https://github.com/liuchen37/R_tutorials/blob/main/Reference:%20Themes%20in%20ggplot2.r)     |
-| Practice   | [Inhibitory effect of DEA and 6-MP on T47D](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Inhibitory%20effect%20of%20DEA%20and%206-MP%20on%20T47D.r) |
+| **Reference**  | [Themes in ggplot2](https://github.com/liuchen37/R_tutorials/blob/main/Reference:%20Themes%20in%20ggplot2.r)     |
+| **Practice**   | [Inhibitory effect of DEA and 6-MP on T47D](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Inhibitory%20effect%20of%20DEA%20and%206-MP%20on%20T47D.r) |
 |    | [HRas mutation rate](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20Counting%20freqency%20of%20an%20object%20in%20a%20table.r) |
-| Data       | [Compensation](https://github.com/liuchen37/R_tutorials/blob/main/compensation.csv)     |
+| **Data**       | [Compensation](https://github.com/liuchen37/R_tutorials/blob/main/compensation.csv)     |
 |        | [Breast Cancer](https://github.com/liuchen37/R_tutorials/blob/main/BC.csv)  |
 |        | [Daphniagrowth](https://github.com/liuchen37/R_tutorials/blob/main/Daphniagrowth.csv)      |
 |        | [GardenOzone](https://github.com/liuchen37/R_tutorials/blob/main/GardenOzone.csv)            |
@@ -32,7 +32,7 @@ Reference: *Getting Started with R: An Introduction for Biologists, 2ed (Oxford,
 Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 | Chapter    | Title     |
 | ---------- | ----------------------------------------- |
-| Quantitative RNAseq | Introduction and technical requirements |
+| **Quantitative RNAseq** | Introduction and technical requirements |
 |  | Estimating differential expression |
 |  | Power analysis |
 |  | Unannotated transcribed regions |
@@ -41,7 +41,7 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | Estimating batch effects |
 |  | Allele-specific expression analysis |
 |  | RNAseq data visulaization |  |
-| Genetic variants and HTS data | Introduction and technical requirements |
+| **Genetic variants and HTS data** | Introduction and technical requirements |
 |  | SNPs and indels from sequencing data |
 |  | Predicting ORFs in long reference sequences |
 |  | Plotting with karyploteR |
@@ -49,7 +49,7 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | Genomic regions of interest |
 |  | GWAS |
 |  | Estomating the copy number at a locus of interest |
-| Genes, proteins, domains and motifs | Introduction and technical requirements |
+| **Genes, proteins, domains and motifs** | Introduction and technical requirements |
 |  | DNA motif |
 |  | Protein domains with PFAM and bio3d |
 |  | InterPro domains |
@@ -57,21 +57,21 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | Aligning genomic length sequences |
 |  | Machine learning for protein noval feature predicton |
 |  | 3D structure protein alignment |
-| Phylogenetics | Introduction and technical requirements |
+| **Phylogenetics** | Introduction and technical requirements |
 |  | Reading and writing varied tree formats |
 |  | Tree visualization |
 |  | Quantifying differences |
 |  | Subtrees |
 |  | Alighnment visualization |
 |  | Reconstructing trees using phangorn |
-| Metagenomics | Introduction and technical requirements |
+| **Metagenomics** | Introduction and technical requirements |
 |  | Processing hierarchical taxonomic data |
 |  | Sample differential |
 |  |Reading amplicon data |
 |  |Taxonomic abundances visualization |
 |  |Sample diversity |
 |  |Splitting sequence files into OTUs |
-| Proteomics | Introduction and technical requirements |
+| **Proteomics** | Introduction and technical requirements |
 |  | Visualization raw MS data |
 |  | Genome broswer |
 |  | Distribution visualizing |
@@ -79,14 +79,14 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | Matching spectra to peptides |
 |  | QC files |
 |  |Identifying genomic loci with peptides |
-| Visualization for publication | Introduction and technical requirements |
+| **Visualization for publication** | Introduction and technical requirements |
 |  | Mutiple distributions |
 |  | Colormpas for two-variable data |
 |  | Relational data as networks |
 |  | Interactive web |
 |  | Three-dimensional plots |
 |  | Circular genome plots |
-| Databases and remote data sources | Introduction and technical requirements |
+| **Databases and remote data sources** | Introduction and technical requirements |
 |  | Retrieving gene and genoe annotation |
 |  | SNPs |
 |  | Gene ontology |
@@ -94,7 +94,7 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | Performing QC and filtering on high-throughput sequence reads |
 |  | Completing read-to-reference alignments |
 |  | Visualizing QC of read-to-reference alignments |
-| Statistics and machine learning | Introduction and technical requirements |
+| **Statistics and machine learning** | Introduction and technical requirements |
 |  | Correcting p-values for multiple hypotheses |
 |  | Simulated dataset and classifying |
 |  | Learning groups I |
@@ -103,14 +103,14 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | Learning groups II |
 |  | Identifying important variables in data I |
 |  | Identifying important variables in data II |
-| Tidyverse and BioConductor | Introduction and technical requirements |
+| **Tidyverse and BioConductor** | Introduction and technical requirements |
 |  | Tidying |
 |  | Nested dataframes |
 |  | dplyer::mutate() |
 |  | BioConductor classes |
 |  | Developing reusable workflows and reports |
 |  | Family of functions |
-| Building and packaging | Introduction and technical requirements |
+| **Building and packaging** | Introduction and technical requirements |
 |  | Simple S3 objects |
 |  | S3 classes |
 |  | S4 systems |
@@ -118,7 +118,7 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | GitHub |
 |  | Building a unit test suite |
 |  | Continous integration |
-| Practice   | [GEOquery](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20GEOquery.r) |
+| **Practice**   | [GEOquery](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20GEOquery.r) |
 
 
 **Keep updating, keep learning...**
