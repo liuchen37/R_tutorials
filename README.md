@@ -32,7 +32,7 @@ Reference: *Getting Started with R: An Introduction for Biologists, 2ed (Oxford,
 Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 | Chapter    | Title     |
 | ---------- | ----------------------------------------- |
-| **Quantitative RNAseq** | Introduction and technical requirements |
+| **Quantitative RNAseq** | [Introduction and technical requirements](https://github.com/liuchen37/R_tutorials/blob/main/Quantitative%20RNAseq:%20Introduction%20and%20technical%20requirements.md) |
 |  | Estimating differential expression |
 |  | Power analysis |
 |  | Unannotated transcribed regions |
