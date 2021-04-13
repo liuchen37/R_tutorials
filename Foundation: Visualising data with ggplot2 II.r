@@ -19,3 +19,5 @@ egscatter <-
 egbox <-
   ggplot(compensation, aes(x = Root, y = Fruit)) +
   geom_boxplot()
+
+a
