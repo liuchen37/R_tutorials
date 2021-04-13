@@ -11,7 +11,6 @@ In order to process these data, the following environment is required:
 ```r
 rm(list = ls())
 
-#Install required packages
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 BiocManager::install()
@@ -31,7 +30,6 @@ BiocManager::install(c(
 
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
-
 BiocManager::install("DESeq")
 
 install.packages("dplyr",
