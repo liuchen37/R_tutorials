@@ -32,7 +32,8 @@ Reference: *Getting Started with R: An Introduction for Biologists, 2ed (Oxford,
 Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 | Chapter    | Title     |
 | ---------- | ----------------------------------------- |
-| Quantitative RNAseq | Estimating differential expression |
+| Quantitative RNAseq | Introduction and technical requirements |
+|  | Estimating differential expression |
 |  | Power analysis |
 |  | Unannotated transcribed regions |
 |  | High expression region with bumphunter |
@@ -40,53 +41,61 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | Estimating batch effects |
 |  | Allele-specific expression analysis |
 |  | RNAseq data visulaization |  |
-| Genetic variants and HTS data | SNPs and indels from sequencing data |
+| Genetic variants and HTS data | Introduction and technical requirements |
+|  | SNPs and indels from sequencing data |
 |  | Predicting ORFs in long reference sequences |
 |  | Plotting with karyploteR |
 |  | Variants selection and classifying |
 |  | Genomic regions of interest |
 |  | GWAS |
 |  | Estomating the copy number at a locus of interest |
-| Genes, proteins, domains and motifs | DNA motif |
+| Genes, proteins, domains and motifs | Introduction and technical requirements |
+|  | DNA motif |
 |  | Protein domains with PFAM and bio3d |
 |  | InterPro domains |
 |  | Multiple alignments of genes and proteins |
 |  | Aligning genomic length sequences |
 |  | Machine learning for protein noval feature predicton |
 |  | 3D structure protein alignment |
-| Phylogenetics | Reading and writing varied tree formats |
+| Phylogenetics | Introduction and technical requirements |
+|  | Reading and writing varied tree formats |
 |  | Tree visualization |
 |  | Quantifying differences |
 |  | Subtrees |
 |  | Alighnment visualization |
 |  | Reconstructing trees using phangorn |
-| Metagenomics | Processing hierarchical taxonomic data |
+| Metagenomics | Introduction and technical requirements |
+|  | Processing hierarchical taxonomic data |
 |  | Sample differential |
 |  |Reading amplicon data |
 |  |Taxonomic abundances visualization |
 |  |Sample diversity |
 |  |Splitting sequence files into OTUs |
-| Proteomics | Visualization raw MS data |
+| Proteomics | Introduction and technical requirements |
+|  | Visualization raw MS data |
 |  | Genome broswer |
 |  | Distribution visualizing |
 |  | MS formats convertion |
 |  | Matching spectra to peptides |
 |  | QC files |
 |  |Identifying genomic loci with peptides |
-| Visualization for publication | Mutiple distributions |
+| Visualization for publication | Introduction and technical requirements |
+|  | Mutiple distributions |
 |  | Colormpas for two-variable data |
 |  | Relational data as networks |
 |  | Interactive web |
 |  | Three-dimensional plots |
 |  | Circular genome plots |
-| Databases and remote data sources | Retrieving gene and genoe annotation |
+| Databases and remote data sources | Introduction and technical requirements |
+|  | Retrieving gene and genoe annotation |
 |  | SNPs |
 |  | Gene ontology |
 |  | SRA/ENA |
 |  | Performing QC and filtering on high-throughput sequence reads |
 |  | Completing read-to-reference alignments |
 |  | Visualizing QC of read-to-reference alignments |
-| Statistics and machine learning | Correcting p-values for multiple hypotheses |
+| Statistics and machine learning | Introduction and technical requirements |
+|  | Correcting p-values for multiple hypotheses |
 |  | Simulated dataset and classifying |
 |  | Learning groups I |
 |  | Predicting classes I: random forests |
@@ -94,13 +103,15 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | Learning groups II |
 |  | Identifying important variables in data I |
 |  | Identifying important variables in data II |
-| Tidyverse and BioConductor | Tidying |
+| Tidyverse and BioConductor | Introduction and technical requirements |
+|  | Tidying |
 |  | Nested dataframes |
 |  | dplyer::mutate() |
 |  | BioConductor classes |
 |  | Developing reusable workflows and reports |
 |  | Family of functions |
-| Building and packaging | Simple S3 objects |
+| Building and packaging | Introduction and technical requirements |
+|  | Simple S3 objects |
 |  | S3 classes |
 |  | S4 systems |
 |  | Packaging for sharing and reuse |
