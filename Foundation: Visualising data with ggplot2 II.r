@@ -60,3 +60,10 @@ egscatter +
     panel.background = element_rect(fill = NA, colour = "black"),
     panel.grid.minor = element_blank(),
     panel.grid.major = element_line(colour= "blue"))
+
+#Adjust angel of axis label
+egbox +
+  theme(
+    axis.text.x = (element_text(angle = 45, vjust = 0.5)))
+
+#More refer to [ggplot cheatsheet](https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf)
