@@ -1,6 +1,8 @@
 # Quantitative RNAseq
 
-RNAseq is a technology which ultilises the next generation sequencing (NGS) to sequence the RNA molecules in a biological system. The technique was developed more than a decade ago, and has become ubiquitous in genetic research. With the help of RNAseq, we can answer the central question: *which gene is differentially expressed?*, referred as differencial gene expression (DGE). With technical advancements, new applications of RNAseq including studying translation (translatome), RNA structure (structurome), spatial transciptomics (spatialomics) and so on.
+RNAseq is a technology which ultilises the next generation sequencing (NGS) to sequence the RNA molecules in a biological system. The technique was developed more than a decade ago, and has become ubiquitous in genetic research. With the help of RNAseq, we can answer the central question: *which gene is differentially expressed?*, referred as differencial gene expression (DGE). With technical advancements, new applications of RNAseq including studying translation (translatome), RNA structure (structurome), spatial transciptomics (spatialomics) and so on. In addition to mRNA, RNAseq can be ran on other types of RNAs, for example rRNA, tRNA and miRNA. The following illustes a typical mRNA sequencing:
+!(https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrg2484/MediaObjects/41576_2009_Article_BFnrg2484_Fig1_HTML.jpg?as=webp)
+
 
 More information please refer to the review artical published by Stark, R *et al.* (2019) on Nature Reviews Genetics: 
 > Stark, R., Grzelak, M. & Hadfield, J. RNA sequencing: the teenage years. *Nat Rev Genet* **20**, 631–656 (2019). https://doi.org/10.1038/s41576-019-0150-2
