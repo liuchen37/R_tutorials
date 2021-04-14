@@ -4,7 +4,7 @@ RNAseq is a technology which ultilises the next generation sequencing (NGS) to s
 
 ![alt text](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrg2484/MediaObjects/41576_2009_Article_BFnrg2484_Fig1_HTML.jpg)
 
-###### Wang, Z., Gerstein, M. & Snyder, M. RNA-Seq: a revolutionary tool for transcriptomics. *Nat Rev Genet* **10**, 57–63 (2009). https://doi.org/10.1038/nrg2484
+###### Wang, Z., Gerstein, M. & Snyder, M. RNA-Seq: a revolutionary tool for transcriptomics. _Nat Rev Genet_ **10**, 57–63 (2009). https://doi.org/10.1038/nrg2484
 
 More information please refer to the review artical published by Stark, R *et al.* (2019) on Nature Reviews Genetics: 
 > Stark, R., Grzelak, M. & Hadfield, J. RNA sequencing: the teenage years. *Nat Rev Genet* **20**, 631–656 (2019). https://doi.org/10.1038/s41576-019-0150-2
