@@ -25,4 +25,14 @@ file.choose()
 pheno <- readr::read_table2("file path")
 glimpse(pheno)
 
+#Specify experiments of interest
+experiments_of_interest <- c("L1Larvae", "L2Larvae")
+columns_of_interest <- which(pheno[['stage']] %in% experiments_of_interest)
+
+#Piping method to send columns of interest to group factor
+grouping <- pheno[['stage']][columns_of_interest] %>% 
+  forcats::as_factor()
+
+#
+
 #1-1-2: with DESeq2
