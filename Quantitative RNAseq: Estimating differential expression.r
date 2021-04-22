@@ -32,6 +32,7 @@ columns_of_interest <- which(pheno[['stage']] %in% experiments_of_interest)
 #Piping method to send columns of interest to group factor
 grouping <- pheno[['stage']][columns_of_interest] %>% 
   forcats::as_factor()
+
 #Form count data subset
 counts.of.interest <- count.matrix[columns_of_interest]
 
