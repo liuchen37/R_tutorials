@@ -1,7 +1,5 @@
 # Producing Pubication and Web-Ready Visualizations
 
-# Producing Pubication and Web-Ready Visualizations
-
 Designing and producing good quality clear illustrations and plots demostrating results is a key task in presenting reuslts in a publication. Based on a powerful tool: *ggplot2*, we discuss how to create different types of graphs, from classical box/scatter plot, to complex networks, 3D images and circular genome plots.
 
 These two tutorials gave an introduction on the use of *ggplot2*:   
