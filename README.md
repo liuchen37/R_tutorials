@@ -83,7 +83,7 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | Mutiple distributions |
 |  | Colormpas for two-variable data |
 |  | Relational data as networks |
-|  | Interactive web |
+|  | Interactive web graphics |
 |  | Three-dimensional plots |
 |  | Circular genome plots |
 | **Databases and remote data sources** | Introduction and technical requirements |
