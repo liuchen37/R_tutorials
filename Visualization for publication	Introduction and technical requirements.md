@@ -43,5 +43,19 @@ In order to In order to produce these images, the following environment is requi
 
 ```r
 rm(list = ls())
-test
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install()
+
+install.packages("circlize",
+                  "dplyr",
+                  "ggridges",
+                  "ploty",
+                  "RColorBrewer",
+                  "readr",
+                  "magrittr",
+                  "tidyr",
+                  "viridis")
+ 
 ```
