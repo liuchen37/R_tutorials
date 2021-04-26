@@ -80,7 +80,7 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | QC files |
 |  |Identifying genomic loci with peptides |
 | **Visualization for publication** | [Introduction and technical requirements](https://github.com/liuchen37/R_tutorials/blob/main/Visualization%20for%20publication%09Introduction%20and%20technical%20requirements.md) |
-|  | Mutiple distributions |
+|  | [Mutiple distributions](https://github.com/liuchen37/R_tutorials/blob/main/Visualization%20for%20publication:%20Mutiple%20distributions.r) |
 |  | Colormpas for two-variable data |
 |  | Relational data as networks |
 |  | Interactive web graphics |
