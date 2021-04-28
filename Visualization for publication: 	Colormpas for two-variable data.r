@@ -10,7 +10,7 @@ heatmap(wp)
 #Remove the dendrogram
 heatmap(wp, Rowv = NA, Colv = NA)
 
-#Add colour scale to the groups
+#Add colour scale to the groups, first argument of rainbow() is the number of colours
 cc <- rainbow(ncol(wp), start = 0, end = 0.3)
 heatmap(wp, ColSideColors = cc)
 
