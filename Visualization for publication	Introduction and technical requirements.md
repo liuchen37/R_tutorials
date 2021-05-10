@@ -6,7 +6,7 @@ These two previous tutorials gave an introduction on the use of *ggplot2*:
 [Visualising data with ggplot2 I](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Visualising%20data%20with%20ggplot2%20I.r)  
 [Visualising data with ggplot2 II](https://github.com/liuchen37/R_tutorials/blob/main/Foundation:%20Visualising%20data%20with%20ggplot2%20II.r)
 
-Below are some examplar plots we will produce in this chapter:
+Below are some examplars we will produce in this chapter:
 
 **Multiple distribution**
 
