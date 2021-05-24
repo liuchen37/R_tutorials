@@ -118,6 +118,7 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | GitHub |
 |  | Building a unit test suite |
 |  | Continous integration |
+| **Data** | [bio-DM-LC.edges](https://github.com/liuchen37/R_tutorials/blob/main/bio-DM-LC.edges) |
 | **Practice**   | [GEOquery](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20GEOquery.r) |
 
 
