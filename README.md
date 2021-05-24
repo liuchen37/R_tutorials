@@ -1,4 +1,4 @@
-# R_tutorials
+# R Study notes
 **Chen**
 
 Some R tutorials: foundation and bioinformatics.
