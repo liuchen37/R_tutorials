@@ -82,7 +82,7 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 | **Visualization for publication** | [Introduction and technical requirements](https://github.com/liuchen37/R_tutorials/blob/main/Visualization%20for%20publication%09Introduction%20and%20technical%20requirements.md) |
 |  | [Mutiple distributions](https://github.com/liuchen37/R_tutorials/blob/main/Visualization%20for%20publication:%20Mutiple%20distributions.r) |
 |  | [Colormpas for two-variable data](https://github.com/liuchen37/R_tutorials/blob/main/Visualization%20for%20publication:%20%09Colormpas%20for%20two-variable%20data.r) |
-|  | Relational data as networks |
+|  | [Relational data as networks](https://github.com/liuchen37/R_tutorials/blob/main/Visualization%20for%20publication:%20Relational%20data%20as%20networks.r) |
 |  | Interactive web graphics |
 |  | Three-dimensional plots |
 |  | Circular genome plots |
