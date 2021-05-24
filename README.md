@@ -3,7 +3,7 @@
 
 Some R tutorials: foundation and bioinformatics.
 
-Although most code have been edited, the reference of the origin code were presented before the tables of contents, only for education purpose. Please purchase the books for detailed explaination. All data are in .csv format.
+Although most code have been edited, the reference of the origin code were presented before the tables of contents, only for education purpose. Please purchase the books for detailed explaination. All data are in .csv format unless has a given extension (eg: .edge).
 
 ### Table of Contents: Foundation
 Reference: *Getting Started with R: An Introduction for Biologists, 2ed (Oxford, 2017)*
