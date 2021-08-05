@@ -94,7 +94,7 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 |  | Performing QC and filtering on high-throughput sequence reads |
 |  | Completing read-to-reference alignments |
 |  | Visualizing QC of read-to-reference alignments |
-| **Statistics and machine learning** | Introduction and technical requirements |
+| **Statistics and machine learning** | [Introduction and technical requirements](https://github.com/liuchen37/R_tutorials/blob/main/Statistics%20and%20machine%20learning:%20Introduction%20and%20technical%20requirements.md) |
 |  | Correcting p-values for multiple hypotheses |
 |  | Simulated dataset and classifying |
 |  | Learning groups I |
