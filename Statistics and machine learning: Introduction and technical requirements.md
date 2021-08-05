@@ -26,14 +26,14 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 BiocManager::install()
 
 BiocManager::install(c(
-    "Biobase",
-    "caret"
-    "class"
-    "dylyr"
-    "e1071"
-    "factoextra"
-    "fakeR"
-    "magrittR"
-    "radomForest"
-    "RColorBrewer"
+  "Biobase",
+  "caret",
+  "class",
+  "dylyr",
+  "e1071",
+  "factoextra",
+  "fakeR",
+  "magrittR",
+  "radomForest",
+  "RColorBrewer"
 ))
