@@ -121,5 +121,6 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 | **Data** | [bio-DM-LC.edges](https://github.com/liuchen37/R_tutorials/blob/main/bio-DM-LC.edges) |
 | **Practice**   | [GEOquery](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20GEOquery.r) |
 
+[opwnxlsx](https://github.com/liuchen37/R_tutorials/blob/main/Openxlsx.md)
 
 **Keep updating, keep learning...**
