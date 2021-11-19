@@ -23,10 +23,12 @@ This step loads the target file as a non-previewable value
 ## Remove a sheet from the file
 
 Eg: Remove **sheet 2** from test:
+
 ![alt text](https://github.com/liuchen37/Pics/blob/main/Before_removal.jpg?raw=true)
 
 ```r
 removeWorksheet(test, 2) #Remove the *second* sheet
 saveWorkbook(test, "Removed2.xlsx", overwrite = TRUE) #save and export to a file
 ```
+
 ![alt text](https://github.com/liuchen37/Pics/blob/main/After_removal.jpg?raw=true)
