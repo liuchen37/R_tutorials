@@ -28,7 +28,7 @@ Eg: Remove **sheet 2** from test:
 ![alt text](https://github.com/liuchen37/Pics/blob/main/Before_removal.jpg?raw=true)
 
 ```r
-removeWorksheet(test, 2) #Remove the *second* sheet
+removeWorksheet(test, 2) #Remove the second sheet
 saveWorkbook(test, "Removed2.xlsx", overwrite = TRUE) #save and export to a file
 ```
 
