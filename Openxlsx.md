@@ -21,7 +21,7 @@ This step loads the target file as a non-previewable object:
 
 ![alt text](https://github.com/liuchen37/Pics/blob/main/Test_as_value.jpg?raw=true)
 
-## Remove a sheet from the file
+## Remove a sheet
 
 Eg: Remove **sheet 2** from test:
 
