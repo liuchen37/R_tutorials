@@ -126,6 +126,6 @@ Reference: *R Bioinformatics Cookbook (Packt, 2019)*
 
 | Package |
 | - |
-| [opwnxlsx](https://github.com/liuchen37/R_tutorials/blob/main/Openxlsx.md) |
+| [openxlsx](https://github.com/liuchen37/R_tutorials/blob/main/Openxlsx.md) |
 
 **Keep updating, keep learning...**
