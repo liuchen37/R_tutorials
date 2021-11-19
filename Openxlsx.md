@@ -33,3 +33,16 @@ saveWorkbook(test, "Removed2.xlsx", overwrite = TRUE) #save and export to a file
 ```
 
 ![alt text](https://github.com/liuchen37/Pics/blob/main/After_removal.jpg?raw=true)
+
+## Rename a worksheet
+
+Eg: Rename Sheet2 to Second_last
+
+![alt text](https://github.com/liuchen37/Pics/blob/main/Before_removal.jpg?raw=true)
+
+```r
+names(test)[[2]] <- "Second_last"
+saveWorkbook(test, "renamed2.xlsx", overwrite = TRUE)
+```
+
+![alt text](https://github.com/liuchen37/Pics/blob/main/Renamed.jpg?raw=true)
