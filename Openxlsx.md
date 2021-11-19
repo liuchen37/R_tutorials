@@ -2,7 +2,7 @@
 
 [Documentation](https://www.rdocumentation.org/packages/openxlsx/versions/4.2.4/topics/removeWorksheet)
 
-## Install and load package
+## Install and load the package
 
 ```r
 rm(list = ls())
