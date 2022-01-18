@@ -1,3 +1,5 @@
+# Seurat: https://github.com/satijalab/seurat
+
 rm(list = ls())
 
 # load pbmc3k
