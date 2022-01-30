@@ -1,10 +1,6 @@
 # R study notes
 **Chen**
 
-Some R tutorials: foundation and bioinformatics.
-
-Although most code have been edited, the reference of the origin code were presented before the tables of contents, only for education purpose. Please purchase the books for detailed explaination. All data are in .csv format unless has a given extension (eg: .edge).
-
 ### Table of Contents: Foundation
 Reference: *Getting Started with R: An Introduction for Biologists, 2ed (Oxford, 2017)*
 | Chapter    | Title                                     |
@@ -28,103 +24,7 @@ Reference: *Getting Started with R: An Introduction for Biologists, 2ed (Oxford,
 |        | [Cow Growth](https://github.com/liuchen37/R_tutorials/blob/main/growth.csv)          |
 |        | [Limpet](https://github.com/liuchen37/R_tutorials/blob/main/limpet.csv)    |
 
-### Table of Contents: Bioinformatics
-Reference: *R Bioinformatics Cookbook (Packt, 2019)*
-| Chapter    | Title     |
-| ---------- | ----------------------------------------- |
-| **Quantitative RNAseq** | [Introduction and technical requirements](https://github.com/liuchen37/R_tutorials/blob/main/Quantitative%20RNAseq:%20Introduction%20and%20technical%20requirements.md) |
-|  | [Estimating differential expression](https://github.com/liuchen37/R_tutorials/blob/main/Quantitative%20RNAseq:%20Estimating%20differential%20expression.r) |
-|  | Power analysis |
-|  | Unannotated transcribed regions |
-|  | High expression region with bumphunter |
-|  | Differential peak analysis |
-|  | Estimating batch effects |
-|  | Allele-specific expression analysis |
-|  | RNAseq data visulaization |  |
-| **Genetic variants and HTS data** | Introduction and technical requirements |
-|  | SNPs and indels from sequencing data |
-|  | Predicting ORFs in long reference sequences |
-|  | Plotting with karyploteR |
-|  | Variants selection and classifying |
-|  | Genomic regions of interest |
-|  | GWAS |
-|  | Estomating the copy number at a locus of interest |
-| **Genes, proteins, domains and motifs** | Introduction and technical requirements |
-|  | DNA motif |
-|  | Protein domains with PFAM and bio3d |
-|  | InterPro domains |
-|  | Multiple alignments of genes and proteins |
-|  | Aligning genomic length sequences |
-|  | Machine learning for protein noval feature predicton |
-|  | 3D structure protein alignment |
-| **Phylogenetics** | Introduction and technical requirements |
-|  | Reading and writing varied tree formats |
-|  | Tree visualization |
-|  | Quantifying differences |
-|  | Subtrees |
-|  | Alighnment visualization |
-|  | Reconstructing trees using phangorn |
-| **Metagenomics** | Introduction and technical requirements |
-|  | Processing hierarchical taxonomic data |
-|  | Sample differential |
-|  |Reading amplicon data |
-|  |Taxonomic abundances visualization |
-|  |Sample diversity |
-|  |Splitting sequence files into OTUs |
-| **Proteomics** | Introduction and technical requirements |
-|  | Visualization raw MS data |
-|  | Genome broswer |
-|  | Distribution visualizing |
-|  | MS formats convertion |
-|  | Matching spectra to peptides |
-|  | QC files |
-|  |Identifying genomic loci with peptides |
-| **Visualization for publication** | [Introduction and technical requirements](https://github.com/liuchen37/R_tutorials/blob/main/Visualization%20for%20publication%09Introduction%20and%20technical%20requirements.md) |
-|  | [Mutiple distributions](https://github.com/liuchen37/R_tutorials/blob/main/Visualization%20for%20publication:%20Mutiple%20distributions.r) |
-|  | [Colormpas for two-variable data](https://github.com/liuchen37/R_tutorials/blob/main/Visualization%20for%20publication:%20%09Colormpas%20for%20two-variable%20data.r) |
-|  | [Relational data as networks](https://github.com/liuchen37/R_tutorials/blob/main/Visualization%20for%20publication:%20Relational%20data%20as%20networks.r) |
-|  | Interactive web graphics |
-|  | Three-dimensional plots |
-|  | Circular genome plots |
-| **Databases and remote data sources** | Introduction and technical requirements |
-|  | Retrieving gene and genoe annotation |
-|  | SNPs |
-|  | Gene ontology |
-|  | SRA/ENA |
-|  | Performing QC and filtering on high-throughput sequence reads |
-|  | Completing read-to-reference alignments |
-|  | Visualizing QC of read-to-reference alignments |
-| **Statistics and machine learning** | [Introduction and technical requirements](https://github.com/liuchen37/R_tutorials/blob/main/Statistics%20and%20machine%20learning:%20Introduction%20and%20technical%20requirements.md) |
-|  | Correcting p-values for multiple hypotheses |
-|  | Simulated dataset and classifying |
-|  | Learning groups I |
-|  | Predicting classes I: random forests |
-|  | Predicting classes II: SVM |
-|  | Learning groups II |
-|  | Identifying important variables in data I |
-|  | Identifying important variables in data II |
-| **Tidyverse and BioConductor** | Introduction and technical requirements |
-|  | Tidying |
-|  | Nested dataframes |
-|  | dplyer::mutate() |
-|  | BioConductor classes |
-|  | Developing reusable workflows and reports |
-|  | Family of functions |
-| **Building and packaging** | Introduction and technical requirements |
-|  | Simple S3 objects |
-|  | S3 classes |
-|  | S4 systems |
-|  | Packaging for sharing and reuse |
-|  | GitHub |
-|  | Building a unit test suite |
-|  | Continous integration |
-| **Data** | [bio-DM-LC.edges](https://github.com/liuchen37/R_tutorials/blob/main/bio-DM-LC.edges) |
-| **Practice**   | [GEOquery](https://github.com/liuchen37/R_tutorials/blob/main/Practice:%20GEOquery.r) |
-
-
 ## Others
 
 | Package | [openxlsx](https://github.com/liuchen37/R_tutorials/blob/main/Openxlsx.md) |
 | - | - |
-
-**Keep updating, keep learning...**
